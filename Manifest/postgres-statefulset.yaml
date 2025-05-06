@@ -17,7 +17,7 @@ spec:
       containers:
       - name: postgres
         image:   # Update with your image
-        ports: skhussain786/budget-app-project-db
+        ports: skhussain786/budget-app-project-db:latest
         - containerPort: 5432
         env:
         - name: POSTGRES_USER
